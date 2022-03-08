@@ -1,0 +1,33 @@
+<section id="campus" class="padded">
+    <div class="container">
+        <h2></h2>
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Cod</th>
+                            <th>Empresa</th>
+                            <th>Nombre</th>
+                            <th>Cargo</th>
+                            <th>Direccion</th>
+                            <th>Ciudad</th>
+                            <th>Pais</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr *ngFor="let itemProv of listaProveedores">
+                            <td>{{itemProv.idproveedor}}</td>
+                            <td>{{itemProv.nombreempresa}}</td>
+                            <td>{{itemProv.nombrecontacto}}</td>
+                            <td>{{itemProv.cargocontacto}}</td>
+                            <td>{{itemProv.direccion}}</td>
+                            <td>{{itemProv.ciudad}}</td>
+                            <td>{{itemProv.pais}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

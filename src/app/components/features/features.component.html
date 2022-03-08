@@ -1,0 +1,14 @@
+<section id="features" class="padded">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col" *ngFor="let itemCli of listaClientes">
+          <div class="card  border-info mb-3">
+            <div class="card-header">{{itemCli.empresa}}</div>
+            <div class="card-body">
+              <h5 class="card-title">{{itemCli.nombres}}</h5>
+              <h6 class="card-text">{{itemCli.cargo}}</h6>
+              <p class="card-text">{{itemCli.ciudad}}</p>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>

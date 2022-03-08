@@ -1,0 +1,30 @@
+#main-header{
+    background-color:#2d2f46;
+    color: #9e9a9a;
+    border-bottom: 1px solid #57565c;
+    font-size: 12px;
+    padding: 0.5rem;
+}
+ul li{
+    padding-right:1.5rem ;
+}
+
+/*Menu de Navegacion*/
+#menu1{
+    background-color:#2d2f46;
+    color: #9e9a9a;
+    font-size: 12px;
+}
+#mainbar{
+    background-color:#2d2f46;
+}
+.nav-link{
+    color: #9e9a9a;
+}
+.nav-link:hover{
+    color: #ffffff;
+}
+#logo{
+    width:100px;
+    height:20px;
+}
