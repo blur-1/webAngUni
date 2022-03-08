@@ -1,0 +1,16 @@
+#campus{
+    background-color:#b3aeae67;
+    font-size: 14px;
+}
+thead{
+    border-bottom:2px solid #2a9dd6;
+    text-transform: uppercase;
+    color:#2d2f46;
+    
+}
+.padded{
+    padding-top: 30px;
+}
+.table-hover {
+    cursor: pointer
+}

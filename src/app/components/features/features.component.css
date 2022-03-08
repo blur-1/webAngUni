@@ -1,3 +1,6 @@
+#features{
+    background-color:#b3aeae67;
+}
 .padded{
     padding-top: 20px;
     padding-bottom: 90px;
@@ -5,3 +8,25 @@
 .row{
     margin:10px;
 }
+
+.decoOver{
+    position:relative;
+}
+.overlay{
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color:#2a9dd686;
+    width:100%;
+    height:0;
+    transition: .5s ease;
+    overflow: hidden;
+}
+.decoOver:hover .overlay{
+    height:100%;
+    cursor: pointer;
+}
+/*.overlay h2{
+    color: #fff;
+}*/
+
